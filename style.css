@@ -117,6 +117,8 @@ a
     transform: rotate(45deg);
 }
 
+
+/* line inside the menubar */
 .line 
 {
     fill: none;
@@ -126,6 +128,8 @@ a
     stroke-linecap: round;
 }
 
+
+/* line siz adjustment  */
 .ham1
 {
     .top
