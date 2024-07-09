@@ -96,7 +96,7 @@ a {
 }
 
 .hamRotate.active {
-  transform: rotate(95deg);
+  transform: rotate(45deg);
 }
 
 .line {
