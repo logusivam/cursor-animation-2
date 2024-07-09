@@ -1,1 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100i,400i|Quicksand:400,500&display=swap');
 
+* {
+	box-sizing: border-box;
+  font-size: 15px;
+  cursor: none;
+}
+
+
+body
+{
+    color: #767676;
+    background-color: #000;
+    margin: 0;
+    width: 100vh;
+    height: 100vh;
+    display: flex;
+}
+
+ul, li
+{
+    list-style: none;
+
+}
+
+a
+{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Quicksand', sans-serif;
+}
+
+@media (any-pointer: fine)
+{
+    .c-cursor
+    {
+        display: block;
+    }
+}
