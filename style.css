@@ -38,7 +38,7 @@ a {
 		left: 0;
 		mix-blend-mode: difference;
 		border-radius: 50%;
-    z-index: 50;
+        z-index: 50;
 	}
   
 	.c-cursor__side {
