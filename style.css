@@ -99,6 +99,7 @@ a {
   transform: rotate(45deg);
 }
 
+/* menu lines */
 .line {
   fill: none;
   transition: stroke-dasharray 400ms, stroke-dashoffset 400ms;
@@ -112,7 +113,7 @@ a {
   .bottom{stroke-dasharray: 40 180;}
   
   &.active {
-    .top {stroke-dashoffset: -98px;}
+    .top {stroke-dashoffset: 98px;}
     .bottom {stroke-dashoffset: -138px;}
   }
 }
