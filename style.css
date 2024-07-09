@@ -107,7 +107,47 @@ a
 .ham
 {
     user-select: none;
-    border: 2px solid #767676;
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+    transition: border-radius 300ms ease-in-out;
+}
+
+.hamRotate.active
+{
+    transform: rotate(45deg);
+}
+
+.line 
+{
+    fill: none;
+    transform: stroke-dasharray 400ms, stroke-dashoffset 400ms;
+    stroke: #fff;
+    stroke-width: 5.5;
+    stroke-linecap: round;
+}
+
+.ham1
+{
+    .top
+    {
+        stroke-dasharray: 40 139;
+    }
+    .bottom
+    {
+        stroke-dasharray: 40 189;
+    }
+
+    &.active 
+    {
+        .top
+        {
+            stroke-dashoffset: -98px;
+        }
+        .bottom
+        {
+            stroke-dashoffset: -138px;
+        }
+    }
 }
 
 
