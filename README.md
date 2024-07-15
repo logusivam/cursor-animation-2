@@ -2,7 +2,7 @@
 
 This project demonstrates how to create a custom cursor animation using HTML, CSS, and JavaScript. The custom cursor is designed to be a circle that enlarges when hovering over interactive elements, creating a dynamic and engaging user experience. This animation enhances the overall interaction by providing visual feedback to users when they hover over clickable areas.
 
-## Features
+## Features 
 
 - **Custom Cursor**: Replaces the default cursor with a circular outline cursor.
 - **Hover Enlarge Effect**: The cursor enlarges when hovering over interactive elements.
